@@ -276,7 +276,7 @@ textarea:focus{outline:2px solid var(--accent)}
       <button class="menubtn" onclick="startMistakes()"><div class="e">🔁</div><div class="t">My Mistakes</div><div class="d" id="mistakeCount">Retry questions you got wrong</div></button>
       <button class="menubtn" onclick="showDaily()"><div class="e">📆</div><div class="t">Daily Challenge</div><div class="d" id="dailyDesc">5 questions · same for everyone</div></button>
       <button class="menubtn" onclick="showSurvival()"><div class="e">💀</div><div class="t">Survival</div><div class="d" id="survDesc">One wrong answer ends the run</div></button>
-      <button class="menubtn" onclick="showExam()"><div class="e">📄</div><div class="t">Exam Simulation</div><div class="d">20 questions · 20 minutes</div></button>
+      <button class="menubtn" onclick="showExam()"><div class="e">📄</div><div class="t">Exam Simulation</div><div class="d" id="examDesc">20 questions · 20 minutes</div></button>
       <button class="menubtn" onclick="showDuels()"><div class="e">🥊</div><div class="t">Duels</div><div class="d" id="duelDesc">Challenge a classmate</div></button>
       <button class="menubtn" onclick="showLeaderboard()"><div class="e">🏆</div><div class="t">Leaderboard</div><div class="d">Class rankings</div></button>
       <button class="menubtn" onclick="showProgress()"><div class="e">📈</div><div class="t">My Progress</div><div class="d">Scores, topics & badges</div></button>
@@ -1642,6 +1642,7 @@ function renderDuelList(){
 // ================= EXAM SIMULATION =================
 const EXAM_N = 20, EXAM_SECONDS = 20 * 60;
 let exam = null, examTick = null;
+$('examDesc').textContent = Math.min(EXAM_N, QUESTIONS.length) + ' questions · ' + (EXAM_SECONDS / 60) + ' minutes';
 
 function showExam(){
   go('examintro');

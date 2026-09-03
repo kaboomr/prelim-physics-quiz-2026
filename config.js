@@ -22,12 +22,12 @@ const CLASSES = ["Physics"];
 //    Use a NEW Firebase project (e.g. "prelim-physics-quiz-2026") — don't reuse
 //    the Biology quiz sites' Firebase project.
 const firebaseConfig = {
-  apiKey: "",
-  authDomain: "",
-  projectId: "",
-  storageBucket: "",
-  messagingSenderId: "",
-  appId: ""
+  apiKey: "AIzaSyDbwK2B3lfD9LJDcAToI7ZAn-L4GcAgoz4",
+  authDomain: "prelim-physics-quiz-2026.firebaseapp.com",
+  projectId: "prelim-physics-quiz-2026",
+  storageBucket: "prelim-physics-quiz-2026.firebasestorage.app",
+  messagingSenderId: "406585564285",
+  appId: "1:406585564285:web:cec75faa98282b7b5fa514"
 };
 
 // 3. Options
