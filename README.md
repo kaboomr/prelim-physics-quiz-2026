@@ -23,18 +23,23 @@ same game engine, adapted for NSW Stage 6 Preliminary Physics.
 | `diagrams.js` | Labelled diagrams (SVG) |
 | `syllabus-games.js` | The four Syllabus Drill games |
 | `store.js` | Firebase/localStorage data layer, XP, badges |
-| `IND21_*.png` | Question images, cropped directly from the source exam PDF |
+| `IND21_*.png`, `P22_*.png`, `P22_*.svg` | Question images — real exam crops (PNG) or text-only cards for questions whose original diagram was photographic/copyrighted (SVG) |
 
-**On the exam bank:** `data.js` (14 Section I questions) and `data-sa.js` (26 Section II
-sub-questions) are sourced from the **2021 NSW Independent Trial Exams, Physics Year 11
-Examination**, cross-checked question-by-question against that paper's own official
-marking guidelines (not retyped from memory or guessed). Diagram-only or graph-drawing
-sub-parts (Q17a, Q17b, Q18, Q24) were dropped rather than guessed at, since they need a
-physical ruler/protractor or a hand-drawn graph to answer — the same approach used for
-the Biology quiz's own exam bank. Many more real Preliminary Physics past papers with
-answer keys/marking guidelines are available (see `kaboomr/physics-past-papers`);
-growing the bank further means repeating this same crop-and-verify process on them,
-not retyping. Ask any time to keep extending it.
+**On the exam bank:** `data.js` (28 Section I questions) and `data-sa.js` (44 Section II
+sub-questions) are sourced from two real papers so far:
+- **2021 NSW Independent Trial Exams, Physics Year 11 Examination** (`IND21-*` ids)
+- **2022 NSW Independent Exams, Physics Year 11 Examination** (`P22-*` ids)
+
+Every answer and marking guideline was cross-checked question-by-question against that
+paper's own official marking guidelines (not retyped from memory or guessed) — this
+caught and fixed a genuine mismatch in the 2022 paper (Q7) before it went in. Diagram-only
+or graph-drawing sub-parts, and questions built around a photograph (e.g. a real aircraft
+or a cat) rather than a line diagram, were dropped or rewritten as plain text rather than
+reproducing copyrighted images — the same approach used for the Biology quiz's own exam
+bank. Many more real Preliminary Physics past papers with answer keys/marking guidelines
+are available (see `kaboomr/physics-past-papers`); growing the bank further means
+repeating this same crop-and-verify process on them, not retyping. Ask any time to keep
+extending it.
 
 ## Game modes
 
