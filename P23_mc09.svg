@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="448" viewBox="0 0 900 448">
+  <rect x="0" y="0" width="900" height="448" fill="#ffffff"/>
+  <rect x="2" y="2" width="896" height="444" fill="none" stroke="#d9dbe8" stroke-width="2"/>
+  <text x="36" y="61" font-family="Helvetica, Arial, sans-serif" font-size="25" font-weight="700" fill="#1a1a2e">Q9. A ball with mass 6.0 kg is moving east at 12.0 m/s. Due to</text>
+  <text x="36" y="98" font-family="Helvetica, Arial, sans-serif" font-size="25" font-weight="700" fill="#1a1a2e">an internal explosion, it splits into two equal-mass halves, A</text>
+  <text x="36" y="135" font-family="Helvetica, Arial, sans-serif" font-size="25" font-weight="700" fill="#1a1a2e">and B, each moving away from the original path at 40 degrees to</text>
+  <text x="36" y="172" font-family="Helvetica, Arial, sans-serif" font-size="25" font-weight="700" fill="#1a1a2e">it (symmetric to each other). Which statement relating to the</text>
+  <text x="36" y="209" font-family="Helvetica, Arial, sans-serif" font-size="25" font-weight="700" fill="#1a1a2e">ball splitting into two halves is correct?</text>
+  <text x="46" y="256" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="400" fill="#1a1a2e">A)  Energy is lost.</text>
+  <text x="46" y="298" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="400" fill="#1a1a2e">B)  Kinetic energy is conserved.</text>
+  <text x="46" y="340" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="400" fill="#1a1a2e">C)  Momentum is conserved.</text>
+  <text x="46" y="382" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="400" fill="#1a1a2e">D)  Momentum is lost.</text>
+</svg>

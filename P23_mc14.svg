@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="411" viewBox="0 0 900 411">
+  <rect x="0" y="0" width="900" height="411" fill="#ffffff"/>
+  <rect x="2" y="2" width="896" height="407" fill="none" stroke="#d9dbe8" stroke-width="2"/>
+  <text x="36" y="61" font-family="Helvetica, Arial, sans-serif" font-size="25" font-weight="700" fill="#1a1a2e">Q14. A stationary jet plane emits sound that is observed by a</text>
+  <text x="36" y="98" font-family="Helvetica, Arial, sans-serif" font-size="25" font-weight="700" fill="#1a1a2e">person standing in front of it to have a frequency of 500 Hz.</text>
+  <text x="36" y="135" font-family="Helvetica, Arial, sans-serif" font-size="25" font-weight="700" fill="#1a1a2e">Which situation would cause the same sound to be observed to</text>
+  <text x="36" y="172" font-family="Helvetica, Arial, sans-serif" font-size="25" font-weight="700" fill="#1a1a2e">have a frequency of 1000 Hz?</text>
+  <text x="46" y="219" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="400" fill="#1a1a2e">A)  The plane moving towards the observer at 340 m/s.</text>
+  <text x="46" y="261" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="400" fill="#1a1a2e">B)  The plane moving away from the observer at 340 m/s.</text>
+  <text x="46" y="303" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="400" fill="#1a1a2e">C)  The plane moving towards the observer at 170 m/s.</text>
+  <text x="46" y="345" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="400" fill="#1a1a2e">D)  The plane moving away from the observer at 170 m/s.</text>
+</svg>

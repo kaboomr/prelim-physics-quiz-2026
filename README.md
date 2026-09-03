@@ -23,14 +23,15 @@ same game engine, adapted for NSW Stage 6 Preliminary Physics.
 | `diagrams.js` | Labelled diagrams (SVG) |
 | `syllabus-games.js` | The four Syllabus Drill games |
 | `store.js` | Firebase/localStorage data layer, XP, badges |
-| `IND21_*.png`, `P22_*.png`/`.svg`, `JR20_*.png`, `PYM24_*.png`/`.svg` | Question images — real exam crops (PNG) or text-only cards for questions whose original diagram was photographic/copyrighted (SVG) |
+| `IND21_*.png`, `P22_*.png`/`.svg`, `JR20_*.png`, `PYM24_*.png`/`.svg`, `P23_*.png`/`.svg` | Question images — real exam crops (PNG) or text-only cards for questions whose original diagram was photographic/copyrighted/non-contiguous (SVG) |
 
-**On the exam bank:** `data.js` (59 Section I questions) and `data-sa.js` (65 Section II
-sub-questions) are sourced from four real papers so far:
+**On the exam bank:** `data.js` (79 Section I questions) and `data-sa.js` (80 Section II
+sub-questions) are sourced from five real papers so far:
 - **2021 NSW Independent Trial Exams, Physics Year 11 Examination** (`IND21-*` ids)
 - **2022 NSW Independent Exams, Physics Year 11 Examination** (`P22-*` ids)
 - **James Ruse Agricultural High School, 2020 Physics Year 11 Yearly Exam** (`JR20-*` ids)
 - **Pymble Ladies' College, 2024 Physics Year 11 Examination** (`PYM24-*` ids)
+- **2023 NSW Independent Exams, Physics Year 11 Examination** (`P23-*` ids)
 
 Every answer and marking guideline was cross-checked question-by-question against that
 paper's own official marking guidelines (not retyped from memory or guessed) — this
@@ -38,10 +39,14 @@ caught and fixed a genuine mismatch in the 2022 paper (Q7) before it went in. Di
 or graph-drawing sub-parts, and questions built around a photograph (e.g. a real aircraft
 or a cat) rather than a line diagram, were dropped or rewritten as plain text rather than
 reproducing copyrighted images — the same approach used for the Biology quiz's own exam
-bank. Many more real Preliminary Physics past papers with answer keys/marking guidelines
-are available (see `kaboomr/physics-past-papers`); growing the bank further means
-repeating this same crop-and-verify process on them, not retyping. Ask any time to keep
-extending it.
+bank. Every multiple-choice crop for the 2023 paper was individually re-checked to contain
+exactly one question with no bleed from its neighbours (an issue caught in earlier passes),
+tightening several crop boundaries before they went in; one MC question (Q9) shared a
+stimulus with a non-adjacent question and was rebuilt as a text-only card instead of forcing
+a crop that would have included the other question's text. Many more real Preliminary
+Physics past papers with answer keys/marking guidelines are available (see
+`kaboomr/physics-past-papers`); growing the bank further means repeating this same
+crop-and-verify process on them, not retyping. Ask any time to keep extending it.
 
 ## Game modes
 
