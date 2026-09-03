@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="410" viewBox="0 0 900 410">
+  <rect x="0" y="0" width="900" height="410" fill="#ffffff"/>
+  <rect x="2" y="2" width="896" height="406" fill="none" stroke="#d9dbe8" stroke-width="2"/>
+  <text x="36" y="61" font-family="Helvetica, Arial, sans-serif" font-size="25" font-weight="700" fill="#1a1a2e">Q3. A ball is thrown vertically upward. At the exact instant it</text>
+  <text x="36" y="98" font-family="Helvetica, Arial, sans-serif" font-size="25" font-weight="700" fill="#1a1a2e">reaches its maximum height, which statement correctly describes</text>
+  <text x="36" y="135" font-family="Helvetica, Arial, sans-serif" font-size="25" font-weight="700" fill="#1a1a2e">its velocity and acceleration?</text>
+  <text x="46" y="182" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="400" fill="#1a1a2e">A)  Velocity is zero and acceleration is zero</text>
+  <text x="46" y="224" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="400" fill="#1a1a2e">B)  Velocity is zero and acceleration is g, directed downward</text>
+  <text x="46" y="266" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="400" fill="#1a1a2e">C)  Velocity is at its maximum and acceleration is zero</text>
+  <text x="46" y="308" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="400" fill="#1a1a2e">D)  Velocity is at its maximum and acceleration is g, directed</text>
+  <text x="46" y="344" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="400" fill="#1a1a2e">downward</text>
+</svg>

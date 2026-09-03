@@ -1,0 +1,247 @@
+// Preliminary Physics — Section I multiple-choice questions
+// ORIGINAL practice questions written for this quiz (not sourced from a real
+// past paper). Intended as a placeholder question bank: once official past
+// papers with answer keys are supplied, these should be replaced with verified
+// questions cross-checked against the source marking guidelines.
+const QUESTIONS = [
+  {
+    "id": "ORIG-Q1",
+    "year": 2026,
+    "n": 1,
+    "topic": "Kinematics",
+    "subs": ["Motion in a Straight Line"],
+    "img": "PHYS_mc01.svg",
+    "w": 900,
+    "h": 337,
+    "ans": ["B"],
+    "expl": "Acceleration = change in velocity / time = (20 - 0) / 5.0 = 4.0 m/s^2."
+  },
+  {
+    "id": "ORIG-Q2",
+    "year": 2026,
+    "n": 2,
+    "topic": "Kinematics",
+    "subs": ["Motion in a Straight Line"],
+    "img": "PHYS_mc02.svg",
+    "w": 900,
+    "h": 337,
+    "ans": ["B"],
+    "expl": "The gradient of a displacement-time graph is the rate of change of displacement with time, which is velocity."
+  },
+  {
+    "id": "ORIG-Q3",
+    "year": 2026,
+    "n": 3,
+    "topic": "Kinematics",
+    "subs": ["Motion in a Straight Line"],
+    "img": "PHYS_mc03.svg",
+    "w": 900,
+    "h": 410,
+    "ans": ["B"],
+    "expl": "At the peak, the ball is momentarily at rest (v = 0), but gravity still acts on it continuously, so its acceleration remains g downward throughout the flight."
+  },
+  {
+    "id": "ORIG-Q4",
+    "year": 2026,
+    "n": 4,
+    "topic": "Kinematics",
+    "subs": ["Motion on a Plane"],
+    "img": "PHYS_mc04.svg",
+    "w": 900,
+    "h": 411,
+    "ans": ["B"],
+    "expl": "With no horizontal force acting (air resistance ignored), the horizontal velocity component is unaffected by gravity and stays constant; only the vertical component changes."
+  },
+  {
+    "id": "ORIG-Q5",
+    "year": 2026,
+    "n": 5,
+    "topic": "Kinematics",
+    "subs": ["Motion on a Plane"],
+    "img": "PHYS_mc05.svg",
+    "w": 900,
+    "h": 337,
+    "ans": ["A"],
+    "expl": "Since the two forces are perpendicular, the resultant magnitude is found using Pythagoras' theorem: sqrt(3.0^2 + 4.0^2) = sqrt(25) = 5.0 N."
+  },
+  {
+    "id": "ORIG-Q6",
+    "year": 2026,
+    "n": 6,
+    "topic": "Dynamics",
+    "subs": ["Forces"],
+    "img": "PHYS_mc06.svg",
+    "w": 900,
+    "h": 373,
+    "ans": ["B"],
+    "expl": "Newton's First Law is the law of inertia: an object's velocity will not change unless a net external force acts on it."
+  },
+  {
+    "id": "ORIG-Q7",
+    "year": 2026,
+    "n": 7,
+    "topic": "Dynamics",
+    "subs": ["Forces"],
+    "img": "PHYS_mc07.svg",
+    "w": 900,
+    "h": 337,
+    "ans": ["B"],
+    "expl": "Using Newton's Second Law, a = F/m = 20 / 10 = 2.0 m/s^2."
+  },
+  {
+    "id": "ORIG-Q8",
+    "year": 2026,
+    "n": 8,
+    "topic": "Dynamics",
+    "subs": ["Forces, Acceleration and Energy"],
+    "img": "PHYS_mc08.svg",
+    "w": 900,
+    "h": 374,
+    "ans": ["A"],
+    "expl": "Work done is the product of the force applied and the displacement in the direction of that force: W = Fd."
+  },
+  {
+    "id": "ORIG-Q9",
+    "year": 2026,
+    "n": 9,
+    "topic": "Dynamics",
+    "subs": ["Forces, Acceleration and Energy"],
+    "img": "PHYS_mc09.svg",
+    "w": 900,
+    "h": 337,
+    "ans": ["B"],
+    "expl": "Kinetic energy is proportional to velocity squared (KE = 1/2 m v^2). Doubling v multiplies KE by 2^2 = 4."
+  },
+  {
+    "id": "ORIG-Q10",
+    "year": 2026,
+    "n": 10,
+    "topic": "Dynamics",
+    "subs": ["Momentum, Energy and Simple Systems"],
+    "img": "PHYS_mc10.svg",
+    "w": 900,
+    "h": 337,
+    "ans": ["A"],
+    "expl": "Conservation of momentum is a consequence of Newton's Third Law and holds for any isolated system, provided no net external force acts on it \u2014 regardless of whether the collision is elastic or inelastic."
+  },
+  {
+    "id": "ORIG-Q11",
+    "year": 2026,
+    "n": 11,
+    "topic": "Waves and Thermodynamics",
+    "subs": ["Wave Properties"],
+    "img": "PHYS_mc11.svg",
+    "w": 900,
+    "h": 374,
+    "ans": ["B"],
+    "expl": "Since v = f (lambda) and speed v is constant, wavelength is inversely proportional to frequency. Doubling frequency halves the wavelength."
+  },
+  {
+    "id": "ORIG-Q12",
+    "year": 2026,
+    "n": 12,
+    "topic": "Waves and Thermodynamics",
+    "subs": ["Wave Properties"],
+    "img": "PHYS_mc12.svg",
+    "w": 900,
+    "h": 337,
+    "ans": ["B"],
+    "expl": "In a transverse wave, particles oscillate perpendicular to the direction of energy transfer, unlike a longitudinal wave where they oscillate parallel to it."
+  },
+  {
+    "id": "ORIG-Q13",
+    "year": 2026,
+    "n": 13,
+    "topic": "Waves and Thermodynamics",
+    "subs": ["Wave Behaviour"],
+    "img": "PHYS_mc13.svg",
+    "w": 900,
+    "h": 374,
+    "ans": ["A"],
+    "expl": "When a wave slows down entering a denser medium, refraction causes it to bend towards the normal (the line perpendicular to the boundary)."
+  },
+  {
+    "id": "ORIG-Q14",
+    "year": 2026,
+    "n": 14,
+    "topic": "Waves and Thermodynamics",
+    "subs": ["Energy Transfer"],
+    "img": "PHYS_mc14.svg",
+    "w": 900,
+    "h": 337,
+    "ans": ["B"],
+    "expl": "Convection is the transfer of heat through the bulk movement of a fluid \u2014 heated air rising and circulating is a clear example, unlike conduction (A, D) or radiation (C)."
+  },
+  {
+    "id": "ORIG-Q15",
+    "year": 2026,
+    "n": 15,
+    "topic": "Waves and Thermodynamics",
+    "subs": ["Thermodynamics"],
+    "img": "PHYS_mc15.svg",
+    "w": 900,
+    "h": 337,
+    "ans": ["B"],
+    "expl": "Thermal equilibrium is reached when two objects in contact reach the same temperature, at which point there is no further net transfer of heat between them."
+  },
+  {
+    "id": "ORIG-Q16",
+    "year": 2026,
+    "n": 16,
+    "topic": "Electricity and Magnetism",
+    "subs": ["Electrostatics"],
+    "img": "PHYS_mc16.svg",
+    "w": 900,
+    "h": 337,
+    "ans": ["B"],
+    "expl": "Like charges (both positive, or both negative) always repel one another; only unlike charges attract."
+  },
+  {
+    "id": "ORIG-Q17",
+    "year": 2026,
+    "n": 17,
+    "topic": "Electricity and Magnetism",
+    "subs": ["Electric Circuits"],
+    "img": "PHYS_mc17.svg",
+    "w": 900,
+    "h": 337,
+    "ans": ["A"],
+    "expl": "Ohm's Law states that voltage equals current multiplied by resistance: V = IR, for a conductor at constant temperature."
+  },
+  {
+    "id": "ORIG-Q18",
+    "year": 2026,
+    "n": 18,
+    "topic": "Electricity and Magnetism",
+    "subs": ["Electric Circuits"],
+    "img": "PHYS_mc18.svg",
+    "w": 900,
+    "h": 374,
+    "ans": ["B"],
+    "expl": "In a series circuit, total resistance is the sum of the individual resistances, so adding another resistor always increases the total resistance."
+  },
+  {
+    "id": "ORIG-Q19",
+    "year": 2026,
+    "n": 19,
+    "topic": "Electricity and Magnetism",
+    "subs": ["Electric Circuits"],
+    "img": "PHYS_mc19.svg",
+    "w": 900,
+    "h": 374,
+    "ans": ["B"],
+    "expl": "Adding another parallel branch gives current more paths to flow through, which always decreases the overall resistance of a parallel combination."
+  },
+  {
+    "id": "ORIG-Q20",
+    "year": 2026,
+    "n": 20,
+    "topic": "Electricity and Magnetism",
+    "subs": ["Magnetism"],
+    "img": "PHYS_mc20.svg",
+    "w": 900,
+    "h": 373,
+    "ans": ["B"],
+    "expl": "The right-hand grip rule finds the direction of the magnetic field circling a straight current-carrying wire: point the thumb along the current, and the curled fingers show the field direction."
+  }
+];
