@@ -23,12 +23,13 @@ same game engine, adapted for NSW Stage 6 Preliminary Physics.
 | `diagrams.js` | Labelled diagrams (SVG) |
 | `syllabus-games.js` | The four Syllabus Drill games |
 | `store.js` | Firebase/localStorage data layer, XP, badges |
-| `IND21_*.png`, `P22_*.png`, `P22_*.svg` | Question images — real exam crops (PNG) or text-only cards for questions whose original diagram was photographic/copyrighted (SVG) |
+| `IND21_*.png`, `P22_*.png`/`.svg`, `JR20_*.png` | Question images — real exam crops (PNG) or text-only cards for questions whose original diagram was photographic/copyrighted (SVG) |
 
-**On the exam bank:** `data.js` (28 Section I questions) and `data-sa.js` (44 Section II
-sub-questions) are sourced from two real papers so far:
+**On the exam bank:** `data.js` (44 Section I questions) and `data-sa.js` (52 Section II
+sub-questions) are sourced from three real papers so far:
 - **2021 NSW Independent Trial Exams, Physics Year 11 Examination** (`IND21-*` ids)
 - **2022 NSW Independent Exams, Physics Year 11 Examination** (`P22-*` ids)
+- **James Ruse Agricultural High School, 2020 Physics Year 11 Yearly Exam** (`JR20-*` ids)
 
 Every answer and marking guideline was cross-checked question-by-question against that
 paper's own official marking guidelines (not retyped from memory or guessed) — this
